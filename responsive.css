@@ -1,0 +1,65 @@
+@media (max-width:600px) {
+    .nav{
+        padding: 2vw 6vw;
+        height: 60px;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 2vw;
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
+
+    .nav2 button {
+        display: none;
+    }
+
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column ;
+    }
+
+    .left{
+        width: 100%;
+        height: 45%;
+        padding: 4vw 6vw;
+    }
+    .right{
+        width: 100%;
+        height: 55%;
+    }
+
+    .left h3{
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+
+    .left p{
+        font-size: 3vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+
+    .content button{
+        padding: 3vw 6vw;
+        border-radius: 3.5px;
+        font-weight: 600;
+        font-size: 3.5vw;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .nav img{
+        width: 5vh;
+    }
+}
